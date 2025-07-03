@@ -309,7 +309,8 @@ class GPT2mindist(nn.Module):
         else:
             checkpoint = torch.load(load_path, weights_only=False)
         self.load_state_dict(checkpoint['model_state_dict'])
-        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        if optimizer is not None:
+            optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
         return checkpoint['model_parameters'], checkpoint['epoch']
 
 def load_model(model_path, device):

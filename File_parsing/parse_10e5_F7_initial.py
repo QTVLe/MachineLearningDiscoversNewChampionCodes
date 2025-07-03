@@ -130,28 +130,6 @@ def parse_file(filename):
 filename = 'dataset_10e5_F7_mod.txt'
 parsed_array = parse_file(filename)
 
-# Print the parsed data
-for idx, block in enumerate(parsed_array):
-    if block['code_info1'] is None:
-        print(idx)
-        print(f"Coordinates1: {block['coordinates1']}")
-        print(f"Coordinates2: {block['coordinates2']}")
-        print(f"Code Info1: {block['code_info1']}")
-        print("Generator:")
-        print(block['generator'])
-        print("Generator dual:")
-        print(block['generator_dual'])
-        print("precode1:")
-        print(block['precode1'])
-        print("Code2:")
-        print(block['code2'])
-    if len(block['coordinates1']) < 2:
-        print(idx)
-    if block['mindist'] > 30:
-        print(idx)
-        print(block['coordinates1'])
-
-
 data_len = len(parsed_array)
 print(data_len)
 
