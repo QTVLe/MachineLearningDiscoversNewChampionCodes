@@ -5,6 +5,26 @@ We use machine learning techniques to approximate the minimum Hamming distance o
 
 This repository includes all runs exploring $\mathbb{F}_7$, seen in the $\mathbb{F}_7$ folder, and all runs exploring $\mathbb{F}_8$, seen in the $\mathbb{F}_8$ folder. Both also include all code relating to the project.
 
-Here's a dataset of 100,000 F_7 codes! The features are:
+# Structure
+
+## Magma code
+
+TBA
+
+## Datasets
+
+Contains $\mathbb{F}_7$ and $\mathbb{F}_8$ datasets as a text files as they were generated in Magma. Folders with 'F_7' in the name contain datasets for $\mathbb{F}_7$ codes, with 'F_8' - for $\mathbb{F}_8$. 
+
+As explained in the paper, we generated two datasets for $\mathbb{F}_7$, initial one with 100,000 codes for all vertices - folder 'dataset_10e5_F7_initial', and the main one - 'dataset_10e5_F7_by_n_vert', with 100,000 codes for each generated number of vertices.
+
+Here's a dataset of 100,000 $\mathbb{F}_7$ codes! The features are:
 
 [vertices in first order, vertices in second order, minimum hamming distance of toric code, first order approximation of hamming distance, toric matrix, toric code, dualcode, generator]
+
+## File_parsing
+
+## Model_training
+
+## F7_GA
+
+## F7_Runs
