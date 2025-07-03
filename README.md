@@ -3,7 +3,7 @@ The abstract of the paper, _Machine Learning Generalised Toric Codes_:
 
 We use machine learning techniques to approximate the minimum Hamming distance of generalised toric codes, leveraging the generator matrix of the toric code and the generator matrix of the dual code. Although the predictive accuracy is modest, the model effectively reduces the search space for generalised toric codes that achieve the greatest minimum Hamming distance for a fixed dimension. We pair this model with a genetic algorithm for constructing generalised toric codes, and discover new champion codes over $\mathbb{F}_8$. Our results show the use of machine learning with algorithmic search methods in the study and construction of error-correcting codes.
 
-This repository includes all runs exploring $\mathbb{F}_7$, seen in the $\mathbb{F}_7$ folder, and all runs exploring $\mathbb{F}_8$, seen in the $\mathbb{F}_8$ folder. Both also include all code relating to the project.
+<!-- This repository includes all runs exploring $\mathbb{F}_7$, seen in the $\mathbb{F}_7$ folder, and all runs exploring $\mathbb{F}_8$, seen in the $\mathbb{F}_8$ folder. Both also include all code relating to the project. -->
 
 # Structure
 
@@ -34,7 +34,7 @@ Recall that there is no primitive element as a number for $\mathbb{F}_8$, so mat
 Contains scripts used parse text files and save them as pickle files which can be further loaded into torch for further processing or training.
 
 For $\mathbb{F}_8$ codes files, we casted `$.1` powers into integers using the following rule:
-$0 \rightarrow 0, 1 \rightarrow 1, $\alpha$ \rightarrow 2, $\alpha$^2 \rightarrow 3, $\alpha$^3 \rightarrow 4, $\alpha$^4 \rightarrow 5, $\alpha$^5 \rightarrow 6, $\alpha$^6 \rightarrow 7$.
+$0 \rightarrow 0, 1 \rightarrow 1, \alpha \rightarrow 2, \alpha^2 \rightarrow 3, \alpha^3 \rightarrow 4, \alpha^4 \rightarrow 5, \alpha^5 \rightarrow 6, \alpha^6 \rightarrow 7$.
 
 ## Model_training
 
