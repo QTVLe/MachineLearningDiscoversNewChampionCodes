@@ -40,7 +40,7 @@ $0 \rightarrow 0, 1 \rightarrow 1, \alpha \rightarrow 2, \alpha^2 \rightarrow 3,
 
 Contains two scripts `transformer_3_F_7.py` and `transformer_436_vector_hpc_F_8.py` used to train the models employed in the Genetic Algorith search for  $\mathbb{F}_7$ and  $\mathbb{F}_8$ codes, respectively.
 
-There are alsl two folders with checkpoints for the above models which can be loaded using `load` method of the GPT2mindist/ToricTransformer class (`optimizer` argument can be `none`).
+There are also two folders with checkpoints for the above models which can be loaded using `load` method of the GPT2mindist/ToricTransformer class (`optimizer` argument can be `none`).
 
 ## F_7_GA
 
