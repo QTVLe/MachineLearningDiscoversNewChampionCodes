@@ -9,7 +9,7 @@ We use machine learning techniques to approximate the minimum Hamming distance o
 
 ## Magma code
 
-TBA
+Contains an example Magma CAS script to generate $\mathbb{F}_8$ dataset. Changing line 3 from `prime := 8;` to `prime := 7;` will generate $\mathbb{F}_8$ codes. To change the generated dataset size, alter a number in line 50. NUmber of vertces, for which the data is generated, can be changed in line 80.
 
 ## Datasets
 
@@ -42,10 +42,14 @@ Contains two scripts `transformer_3_F_7.py` and `transformer_436_vector_hpc_F_8.
 
 There are alsl two folders with checkpoints for the above models which can be loaded using `load` method of the GPT2mindist/ToricTransformer class (`optimizer` argument can be `none`).
 
-## F7_GA
+## F_7_GA
 
 Contains the necedssary functions for running Genetic Algorithm and the main `ToricGA` python script/notebook to run the Genetic algorithm search.
 
-## F7_Runs
+Similar for `F_8_GA` folder.
 
-Contains the results of the GA runs
+## F_7_Runs
+
+Contains the results of the GA runs.
+
+Similar for `F_8_Runs` folder.
