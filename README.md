@@ -9,7 +9,7 @@ Linear error-correcting codes form the mathematical backbone of modern digital c
 
 ## Magma code
 
-Contains an example Magma CAS script to generate $\mathbb{F}_8$ dataset. Changing line 3 from `prime := 8;` to `prime := 7;` will generate $\mathbb{F}_8$ codes. To change the generated dataset size, alter a number in line 50. NUmber of vertces, for which the data is generated, can be changed in line 80.
+Contains an example Magma CAS script to generate $\mathbb{F}_8$ dataset. Changing line 3 from `prime := 8;` to `prime := 7;` will generate $\mathbb{F}_7$ codes. To change the generated dataset size, alter a number in line 50. NUmber of vertces, for which the data is generated, can be changed in line 80.
 
 ## Datasets
 
