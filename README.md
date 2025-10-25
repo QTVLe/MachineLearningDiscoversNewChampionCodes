@@ -21,7 +21,7 @@ As explained in the paper, we generated two datasets for $\mathbb{F}_7$, initial
 
 - `dataset_10e5_F7_by_n_vert` contains files of the form `dataset_100000_n_F7.txt.zip`, where `n` is the number between 5 and 31 (inclusive). Each file is similar to the file in `dataset_10e5_F7_initial` folder, but now the features are: `[vertices, minimum hamming distance of toric code, generator, dual generator]`
 
-For $\mathbb{F}_7$ codes, there are three datasets
+For $\mathbb{F}_8$ codes, there are three datasets
 - `dataset_F8_10e5` with 100,000 codes for number of vertices $4 \dots 17$ (inclusive),
 - `dataset_F8_10e5` with 1,000 codes for number of vertices $16 \dots 45$ (inclusive),
 - `dataset_F8_aux` with  up to 20,000 codes (if so many of them exists, otherwise less) for number of vertices $2,3,40 \dots 47$ (inclusive).
