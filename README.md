@@ -9,15 +9,15 @@ Linear error-correcting codes form the mathematical backbone of modern digital c
 
 ## Magma code
 
-Contains an example Magma CAS script to generate $\mathbb{F}_8$ dataset. Changing line 3 from `prime := 8;` to `prime := 7;` will generate $\mathbb{F}_7$ codes. To change the generated dataset size, alter a number in line 50. NUmber of vertces, for which the data is generated, can be changed in line 80.
+Contains an example Magma CAS script to generate $\mathbb{F}_8$ dataset. Changing line 3 from `prime := 8;` to `prime := 7;` will generate $\mathbb{F}_7$ codes. To change the generated dataset size, alter a number in line 50. Number of vertices, for which the data is generated, can be changed in line 80.
 
 ## Datasets
 
-Contains $\mathbb{F}_7$ and $\mathbb{F}_8$ datasets as a text files as they were generated in Magma. Folders with `F_7` in the name contain datasets for $\mathbb{F}_7$ codes, with `F_8` - for $\mathbb{F}_8$. 
+Contains $\mathbb{F}_7$ and $\mathbb{F}_8$ datasets as text files as they were generated in Magma. Folders with `F_7` in the name contain datasets for $\mathbb{F}_7$ codes, with `F_8` - for $\mathbb{F}_8$. 
 
 As explained in the paper, we generated two datasets for $\mathbb{F}_7$, initial one with 100,000 codes for all vertices - folder `dataset_10e5_F7_initial`, and the main one - `dataset_10e5_F7_by_n_vert`, with 100,000 codes for each generated number of vertices.
 
-- `dataset_10e5_F7_initial` contains file `dataset_10e5_F7.txt.zip`, which is orgainised as a list, where each element is a list with the follwoing features: `[vertices in first order, vertices in second order, minimum hamming distance of toric code, first order approximation of hamming distance, toric matrix, toric code, dualcode, generator]`, where `vertices in first order` means ordering vertices by the coordinates from lowest to highest in each coordinate,  `vertices in second order` means ordering vertices by their distance from the origin, `toric matrix` means the initial matrix one can generate for the code using vertices.
+- `dataset_10e5_F7_initial` contains file `dataset_10e5_F7.txt.zip`, which is orgainised as a list, where each element is a list with the following features: `[vertices in first order, vertices in second order, minimum hamming distance of toric code, first order approximation of hamming distance, toric matrix, toric code, dualcode, generator]`, where `vertices in first order` means ordering vertices by the coordinates from lowest to highest in each coordinate,  `vertices in second order` means ordering vertices by their distance from the origin, `toric matrix` means the initial matrix one can generate for the code using vertices.
 
 - `dataset_10e5_F7_by_n_vert` contains files of the form `dataset_100000_n_F7.txt.zip`, where `n` is the number between 5 and 31 (inclusive). Each file is similar to the file in `dataset_10e5_F7_initial` folder, but now the features are: `[vertices, minimum hamming distance of toric code, generator, dual generator]`
 
