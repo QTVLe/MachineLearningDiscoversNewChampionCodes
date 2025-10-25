@@ -1,7 +1,7 @@
 # MachineLearningGeneralisedToricCodes
-The abstract of the paper, _Machine Learning Generalised Toric Codes_:
+The abstract of the paper, _Machine Learning Discovers Champion Codes_:
 
-We use machine learning techniques to approximate the minimum Hamming distance of generalised toric codes, leveraging the generator matrix of the toric code and the generator matrix of the dual code. Although the predictive accuracy is modest, the model effectively reduces the search space for generalised toric codes that achieve the greatest minimum Hamming distance for a fixed dimension. We pair this model with a genetic algorithm for constructing generalised toric codes, and discover new champion codes over $\mathbb{F}_8$. Our results show the use of machine learning with algorithmic search methods in the study and construction of error-correcting codes.
+Linear error-correcting codes form the mathematical backbone of modern digital communication and storage systems, but identifying champion linear codes (linear codes achieving or exceeding the best known minimum Hamming distance) remains challenging. By training a transformer to predict the minimum Hamming distance of a class of linear codes and pairing it with a genetic algorithm over the search space, we develop a novel method for discovering champion codes. This model effectively reduces the search space of linear codes needed to achieve a best minimum Hamming distance. Our results present the use of this method in the study and construction of error-correcting codes, applicable to codes such as generalised toric, Reed--Muller, Bose--Chaudhuri--Hocquenghem, Algebraic--Geometry, and potentially quantum codes.
 
 <!-- This repository includes all runs exploring $\mathbb{F}_7$, seen in the $\mathbb{F}_7$ folder, and all runs exploring $\mathbb{F}_8$, seen in the $\mathbb{F}_8$ folder. Both also include all code relating to the project. -->
 
