@@ -1,4 +1,4 @@
-# MachineLearningGeneralisedToricCodes
+# MachineLearningDiscoversChampionCodes
 The abstract of the paper, _Machine Learning Discovers Champion Codes_:
 
 Linear error-correcting codes form the mathematical backbone of modern digital communication and storage systems, but identifying champion linear codes (linear codes achieving or exceeding the best known minimum Hamming distance) remains challenging. By training a transformer to predict the minimum Hamming distance of a class of linear codes and pairing it with a genetic algorithm over the search space, we develop a novel method for discovering champion codes. This model effectively reduces the search space of linear codes needed to achieve a best minimum Hamming distance. Our results present the use of this method in the study and construction of error-correcting codes, applicable to codes such as generalised toric, Reed--Muller, Bose--Chaudhuri--Hocquenghem, Algebraic--Geometry, and potentially quantum codes.
